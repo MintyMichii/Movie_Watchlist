@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>MediaWatchlist</h1>
+    <div class = "container">
+        <form id="form-Program">
+            <div class = "form-group">
+                <input type="text" id ="what" class="form-control" maxlenth="50" autocomplete="off" placeholder="What do you need to catch up on?" >
+            </div> 
+            <div class = "form-group">
+                <input type="text" id ="when" cols="30"  row="10" class="form-control" maxlenth="500" autocomplete="off" placeholder="When are you going to watch this?" required>
+        
+            </div>
+        <button type="button" class="btn btn-success btn-block"onclick="addNewClass()">Create</button>
+        <button><create class="push"></create></button>
+        </form>
+        <div class="col-sm-3 bg-light">
+            <p class="font-weight-bold">Media:</p>
+            </div>
+            <div class="col-sm-3 bg-light text-left">
+            <p class="font-weight-bold">When:</p>
+            </div>
+     
+        <hr>
+        <div id="programs"></div>
+        
+    </div>
+
+
+
+<script src = "./list.js" ></script>
+</body>
+</html>
